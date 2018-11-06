@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rerun-Suite]">
+  <listeners>
+    <listener class-name="com.autoqa.framework.apitest.executefailed.TransformAnnotations"/>
+  </listeners>
+  <test name="FailedTest-Rerunner(failed)">
+    <classes>
+      <class name="com.autoqa.framework.apitest.executefailed.SampleTestClass2">
+        <methods>
+          <include name="sampleTest3"/>
+        </methods>
+      </class> <!-- com.autoqa.framework.apitest.executefailed.SampleTestClass2 -->
+    </classes>
+  </test> <!-- FailedTest-Rerunner(failed) -->
+</suite> <!-- Failed suite [Rerun-Suite] -->
